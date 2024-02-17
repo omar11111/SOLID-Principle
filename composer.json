@@ -1,0 +1,17 @@
+{
+    "name": "rtx/solid-principle",
+    "autoload": {
+        "psr-4": {
+            "Rtx\\SolidPrinciple\\": "src/",
+            "Classes\\":"Classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Omar ALGalfy",
+            "email": "31424768+omar11111@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+    
+}

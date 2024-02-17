@@ -3,7 +3,8 @@
     "autoload": {
         "psr-4": {
             "Rtx\\SolidPrinciple\\": "src/",
-            "Classes\\":"Classes"
+            "Classes\\":"Classes",
+            "Interfaces\\":"Interfaces"
         }
     },
     "authors": [

@@ -1,21 +1,22 @@
 <?php
 namespace Classes;
-use Classes\Attack;
-use Classes\Defence;
-use Classes\Keeper;
+
 
 class Match 
 {
-    private $attack;
-    private $defence;
-    private $keeper;
     
-    public function __construct()
+    private $playerList;
+    
+    public function __construct( Array $players)
     {
-        $this->attack = new Attack();
-        $this->defence = new Defence;
-        $this->keeper = new Keeper;
+       $this->playerList = $players;
+    }
 
+    public function start()
+    {
+        foreach($this->playerList as $player){
+            echo $player->play() . '\n';
+        }
     }
   
 }

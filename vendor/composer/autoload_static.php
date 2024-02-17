@@ -11,6 +11,10 @@ class ComposerStaticInit8235f8d48bfc6fffeb13f8df30a1b7aa
         array (
             'Rtx\\SolidPrinciple\\' => 19,
         ),
+        'I' => 
+        array (
+            'Interfaces\\' => 11,
+        ),
         'C' => 
         array (
             'Classes\\' => 8,
@@ -21,6 +25,10 @@ class ComposerStaticInit8235f8d48bfc6fffeb13f8df30a1b7aa
         'Rtx\\SolidPrinciple\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Interfaces\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Interfaces',
         ),
         'Classes\\' => 
         array (
